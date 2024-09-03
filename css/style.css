@@ -1,0 +1,496 @@
+/* reset style */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* height: 600px; */
+}
+
+
+.containerhead{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+}
+
+/* Global style */
+
+
+.bg_black{
+    background-color: black;
+    
+}
+
+.cl_white{
+    color: aliceblue;
+}
+.cl_gray{
+    color: #878787;  
+}
+.b_flex_row{
+    display: flex;
+    justify-content: space-between;
+}
+.b_flex_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.b_flex_arrow{
+    display: flex;
+    margin:8% 0px;
+    
+}
+.gray_font{
+    font-size: 16px;
+}
+
+.bold_font{
+    font-weight: 600;
+}
+
+.card{
+    width: 30%;
+}
+.white_sec{
+    padding: 5% 0px;
+}
+.right_sec{
+    width: 68%;
+    
+}
+
+.left_sec{
+
+    width: 33%;
+    border-left: 2px solid rgba(230, 226, 226, 0.447);
+    /* padding: 2% 3%; */
+    height: 90%;
+}
+
+
+/* customer style */
+
+.intro_sec{
+
+width: 100%;
+height: 600px;
+background-image: url(../images/bg1.jpg);
+background-repeat: no-repeat;
+background-size:cover
+
+}
+.header_list{
+    list-style: none;
+    width: 67%
+   
+}
+.head_list{
+
+    width: 50%
+}
+ .header_list a{
+    /* color: #878787; */
+    text-decoration: none;
+ }
+ .header{
+    padding: 12px 0px;
+    opacity: 1;
+ }
+ nav {
+border-bottom: 2px solid #878787;
+
+ }
+
+ .overlay{
+    background-color: rgba(15, 15, 14, 0.6);
+    width: 100%;
+    height: 600px;
+  
+}
+
+.num_circle{
+    width: 50px;
+    height: 50px;
+    border: 4px solid #878787;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding:4px 10px;
+    font-weight: bold;
+
+
+}
+
+.circle_card{
+    color: #878787;
+    margin-bottom: 2%;
+}
+.circle_card p{
+    margin-left: 10px;
+
+}
+.circle_card2 .num_circle{
+
+    border: 4px solid blue;
+    border-left: 4px solid #878787;
+
+
+}
+.circle_card2 p{
+    color: aliceblue;
+}
+.head .header_list{
+    width: 70%;
+  
+}
+ 
+.all{
+    border-bottom: 2px solid blue;
+    padding-bottom: 5%;
+
+}
+.head_travel{
+    width: 100%;
+    border-bottom: 2px solid rgba(220, 220, 220, 0.527);
+}
+.turblent{
+    width: 100%;
+    margin-top: 3%;
+}
+.travel{
+    width: 47%;
+    box-shadow: 0px 2px 4px 1px rgb(211, 209, 209);
+}
+.travel p{
+    margin-left: 5%;
+    margin-right: 10%;
+    padding: 3% 0px;
+   
+}
+.travel_bpld{
+    font-weight: bold;
+    /* text-align: center; */
+    font-size: 20px;
+  
+}
+.travel img{
+    width: 100%;
+}
+
+
+.travel_btn{
+    position: absolute;
+    background-color: white;
+    color: rgb(25, 25, 237);
+    top: 10%;
+    left: 8%;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight:600
+}
+.travel_img{
+    position: relative;
+}
+.right_travel{
+    width: 48%;
+}
+
+.card_travel_img{
+    width: 60%;
+    /* margin: auto; */
+
+}
+.card_travel_img img{
+    height: 100%;
+    
+}
+.travel_parag p{
+    width: 95%;
+    /* text-align: center; */
+    margin-top: 10px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+.card_right_travel{
+    width: 100%;
+    box-shadow: 0px 2px 4px 1px rgb(211, 209, 209);
+    margin-bottom: 1%;
+}
+.b_flexrow_travel{
+    display: flex;
+    justify-content:end;
+}
+
+.about{
+    /* margin-left: 10%; */
+    
+}
+.about p,.about h3,.about_bottom{
+
+    /* padding: 5% 0px ; */
+    /* border: 1px solid rgba(230, 226, 226, 0.447); */
+   
+    /* padding: 10% 8% ;  */
+    padding-left: 8%; 
+    padding-bottom: 3%;
+  
+}
+
+.about p{
+    padding-top: 8%;
+    font-size: 14px;
+    border-bottom:  2px solid rgba(230, 226, 226, 0.447) ;
+    padding-bottom: 12%;
+    color: rgb(180, 180, 180);
+}
+.about_border{
+    width: 100%;
+    /* border: 1px solid rgba(211, 209, 209, 0.488); */
+    /* border-top: 0; */
+    border-bottom:  2px solid rgba(230, 226, 226, 0.447) ;
+    /* padding: 3% 8% ;  */
+    /* padding-bottom: 3%; */
+
+}
+.about_bottom{
+    /* padding-left: 10%  */
+}
+.stories{
+    /* padding-left: 10% */
+    padding-top: 4%;
+}
+
+
+/* .dropdown ul{
+    list-style: none;
+}
+.drop_parent{
+    position: relative;
+}
+.dropdown{
+ 
+   
+    opacity: 0;
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+   
+    border-top: 3px solid blue;
+    transition: 0.8s;
+    right: 100%;
+    
+
+}
+.dropdown li{
+    border-bottom: 2px solid gainsboro;
+    padding: 8px 20px;
+}
+.drop_parent .home:hover .dropdown{
+opacity: 1;
+right: 0;
+
+ 
+} */
+ .left_sec .card_right_travel{
+    /* padding:5% 0px; */
+ }
+ .left_sec .card_travel_img{
+    width:48%;
+    /* text-align: center; */
+    
+
+ }
+ .left_sec .card_travel_img img{
+     width: 80%;
+ }
+ .about_bottom p {
+    font-size: 14px; 
+    padding-top: 4%;
+    
+    
+
+ }
+ .about_bottom{
+    padding: 8% 8%;
+ }
+
+ .arrows{
+    color: lightgray;
+    width: 5%;
+    height: 5%;
+    border-radius:50%;
+    /* background-color: ; */
+    border: 2px solid lightgray;
+    text-align: center;
+    padding:8px 0px;
+    margin-right: 2%;
+    
+ }
+ .travel_sec2{
+
+
+width: 92%;
+
+ }
+ .card_travel_sec2{
+    width: 46%;
+    font-size: 14px;
+
+    margin-top: 5px;
+ }
+ .c{
+    margin-right: 33px;
+ }
+
+.icons_sec2{
+
+
+    color: rgb(149, 148, 148);
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    /* background-color: ; */
+    border: 2px solid rgb(242, 240, 240);
+    text-align: center;
+    padding:5px 0px;
+    /* margin-right: 2%; */
+    /* margin: 5% 5%; */
+margin: 10% 0px 10% 7%;
+font-size: 13px;
+transition: 1s;
+}
+.about_border i:hover{
+    color: blue;
+}
+
+.left_card{
+box-shadow: 0px 0px 0px 0px;
+}
+
+.card_katy{
+    width: 32%;
+    background-image: url(../images/b4.jpg);
+    background-size: cover;
+
+}
+
+.overlay_card{
+    background-color: rgba(15, 15, 14, 0.6);
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+   
+    
+}
+.tv_btn{
+    margin-left: 30%;
+    text-align: center;
+    
+}
+.card_katy h4{
+
+    padding:20% 8% 0px 8%
+}
+.card_katy .cont{
+ 
+    padding:10% 8% 3% 8%
+}
+.katy_font{
+    font-size: 14px;
+
+}
+.katy2{
+    background-image: url(../images/b5.jpg);
+}
+.katy3{
+    background-image: url(../images/b6.jpg);
+}
+.last_sec{
+    padding: 5% 0px;
+}
+.card_last img{
+    width: 85%;
+}
+.last_sec .card_travel_img{
+    width: 50%;
+}
+
+.right_sec .Key{
+
+/* color: red; */
+margin-top: 5%;
+}
+.pick{
+    margin-top: 3%;
+}
+
+.card_cont{
+    /* padding: 2% 2% 2% 2%; */
+    font-size: 13px;
+    /* width: 50%; */
+    margin: auto;
+}
+.trv_last{
+    width: 100%;
+}
+.play{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-color: aliceblue;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   text-align: center;
+   padding-top: 10px;
+   color: #878787;
+
+}
+.most_article{
+
+margin-top: 4%;
+border-left: 0;
+}
+.trv2{
+margin-top: 1%;
+
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 3% 0px;
+}
+
+.World_content p{
+    color: gray;
+    padding-top: 5%;
+    font-size: 14px;
+}
+.fash p{
+    padding-bottom: 30%;
+}
+.World_content input{
+    background-color: black;
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding-top: 10%;
+}
+.head_trend{
+    width: 96%;
+}
+.r_travel{
+    width: 96%;
+}

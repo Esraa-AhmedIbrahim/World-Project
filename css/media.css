@@ -1,0 +1,27 @@
+
+@media (max-width: 576px) { 
+  
+
+    nav .b_flex_row{
+        /* flex-direction: column; */
+    }
+
+    .head_list{
+        display: none;
+    }
+ .intro .card{
+    /* flex-direction: column; */
+    width: 80%;
+ }
+
+ .miss .b_flex_row{
+    flex-direction: column;
+ }
+ .right_sec,.right_travel,.travel{
+    width: 100%;
+ }
+ 
+ }
+
+
+
